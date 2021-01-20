@@ -1,0 +1,18 @@
+
+class Pack:
+    def pack_configure(self, cnf={}, **kw):
+    def pack_forget(self):
+    def pack_info(self):
+
+class Place:
+    def place_configure(self, cnf={}, **kw):
+    def place_forget(self):
+    def place_info(self):
+
+class Grid:
+    def grid_configure(self, cnf={}, **kw):
+    def grid_forget(self):
+    def grid_remove(self):
+    def grid_info(self):
+
+class BaseWidget(Misc):
